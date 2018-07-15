@@ -1,0 +1,275 @@
+﻿<!DOCTYPE tei.2 SYSTEM "c:\sgml\dtd\tei2.dtd" [
+	<!ENTITY % TEI.corpus "INCLUDE">
+	<!ENTITY % TEI.extensions.ent SYSTEM "sejong1.ent">
+	<!ENTITY % TEI.extensions.dtd SYSTEM "sejong1.dtd">
+]>
+
+<tei.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>조선일보 생활(93),  구문 분석 전자파일</title>
+			<author>조선일보사</author>
+			<sponsor>대한민국 문화관광부</sponsor>
+			<respStmt>
+				<resp>문헌입력, 표준화, 구문 정보 부착</resp>
+				<name>고려대학교 민족문화연구원</name>
+			</respStmt>
+		</titleStmt>
+		<extent>19,352 어절, 1596 문장</extent>
+		<publicationStmt>
+			<distributor>국립국어연구원</distributor>
+			<idno>BGAA0001.txt, 형태분석:BTAA001.txt, 원본:BRAA001.txt</idno>
+			<availability>배포 불가</availability>
+		</publicationStmt>
+		<notesStmt>
+			<note>원문의 모든 부분에 구문 정보 부착</note>
+		</notesStmt>
+		<sourceDesc>
+			<bibl>
+				<author>조선일보사</author>
+				<title>조선일보 생활(93)</title>
+				<pubPlace>서울</pubPlace>
+				<publisher>조선일보사</publisher>
+				<date>1993</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>21세기 세종계획 2002년도 구문 분석 말뭉치 구축</projectDesc>
+		<samplingDecl>21세기 세종계획 2차년도 형태소 정보 부착 말뭉치 파일을 구문 정보 부착 파일로 변환</samplingDecl>
+		<editorialDecl>21세기 세종계획 구문 분석 말뭉치 구축 지침(2002)에 따른 구문 정보 부착</editorialDecl>
+	</encodingDesc>
+	<profileDesc>
+		<creation>
+			<date>1991</date>
+		</creation>
+		<langUsage>
+			<language id="KO" usage="99">한국어, 표준어</language>
+		</langUsage>
+		<textClass>
+			<catRef scheme="SJ21" target="M1112">신문 : 보도 · 해설 - 사회</catRef>
+		</textClass>
+	</profileDesc>
+	<revisionDesc>
+		<respStmt>
+			<resp>프로젝트 책임자</resp>
+			<name>김흥규</name>
+		</respStmt>
+		<change>
+			<date>1999</date>
+			<respStmt>
+				<resp>연구보조원</resp>
+				<name>이봉원, 김일환, 차준경, 최승철, 조진현, 김태훈</name>
+			</respStmt>
+			<item>21세기 세종계획 형태소 분석 말뭉치 구축 지침(1999-4)에 따른 형태소 정보 검토, 수정</item>
+		</change>
+		<change>
+			<date>2002</date>
+			<respStmt>
+				<resp>연구보조원</resp>
+				<name>김의수</name>
+			</respStmt>
+			<item>21세기 세종계획 구문 분석 말뭉치 구축 지침(2002)에 따른 구문 정보 부착</item>
+		</change>
+		<change>
+			<date>2007</date>
+			<respStmt>
+				<resp>연구책임자</resp>
+				<name>김흥규</name>
+				<resp>연구원</resp>
+				<name>홍정하</name>
+				<resp>연구보조원</resp>
+				<name>김주영</name>
+			</respStmt>
+			<item>파일명 변환, 유니코드 변환. 일부 오류 수정</item>
+		</change>
+		<change>
+			<date>2009</date>
+			<respStmt>
+				<resp>국립국어원 업무위탁</resp>
+				<name>강승식</name>
+			</respStmt>
+			<item>오류 수정</item>
+		</change>
+		<change>
+			<date>2010-03-20</date>
+			<respStmt>
+				<resp>N/A</resp>
+				<tname>이동주</tname>
+			</respStmt>
+			<item>꼬꼬마 세종 말뭉치 활용 도구 적용을 위한 전체 파일 대상 태그 오류 일괄 수정</item>
+		</change>
+	</revisionDesc>
+</teiHeader>
+<tei.2>
+ <text>
+ <body>
+; 1993/06/08 19 
+(NP 	(NP 1993/SN + //SP + 06/SN + //SP + 08/SN)
+	(NP 19/SN))
+; 엠마누엘 웅가로 / 
+(NP 	(NP 	(NP 엠마누엘/NNP)
+		(NP 웅가로/NNP))
+	(X //SP))
+; 의상서 실내 장식품으로… 
+(NP_AJT 	(NP_AJT 의상/NNG + 서/JKB)
+	(NP_AJT 	(NP 실내/NNG)
+		(NP_AJT 장식품/NNG + 으로/JKB + …/SE)))
+; 디자인 세계 넓혀 
+(VP 	(NP_OBJ 	(NP 디자인/NNG)
+		(NP_OBJ 세계/NNG))
+	(VP 넓히/VV + 어/EC))
+; (del) 엠마누엘 웅가로가 실내 장식용 직물 디자이너로 나섰다. 
+(S 	(NP_SBJ 	(<del>NP 	(NP_MOD 프랑스/NNP + 의/JKG)
+			(NP 	(VNP_MOD 세계/NNG + 적/XSN + 이/VCP + ᆫ/ETM)
+				(NP 	(NP 의상/NNG)
+					(NP 디자이너/NNG))))
+		(NP_SBJ 	(NP 엠마누엘/NNP)
+			(NP_SBJ 웅가로/NNP + 가/JKS)))
+	(VP 	(NP_AJT 	(NP 	(NP 	(NP 실내/NNG)
+					(NP 장식/NNG + 용/XSN))
+				(NP 직물/NNG))
+			(NP_AJT 디자이너/NNG + 로/JKB))
+		(VP 나서/VV + 었/EP + 다/EF + ./SF)))
+; 웅가로는 (del) 최근 파리의 갤러리 라파예트백화점에서 `색의 컬렉션'이라는 이름으로 전시회를 열었다. 
+(S 	(NP_SBJ 웅가로/NNP + 는/JX)
+	(VP 	(<del>VP 	(NP_OBJ 	(VP_MOD 	(NP_AJT 	(NP_CNJ 침실/NNG + 과/JC)
+						(NP_AJT 	(NP_CNJ 식당/NNG + ,/SP)
+							(NP_AJT 욕실/NNG + 에서/JKB)))
+					(VP_MOD 사용/NNG + 하/XSV + 는/ETM))
+				(NP_OBJ 	(NP 갖가지/NNG)
+					(NP_OBJ 직물/NNG + 제품/NNG + 을/JKO)))
+			(VP 디자인/NNG + 하/XSV + 아/EC))
+		(VP 	(NP_AJT 최근/NNG)
+			(VP 	(NP_AJT 	(NP_MOD 파리/NNP + 의/JKG)
+					(NP_AJT 	(NP 갤러리/NNG)
+						(NP_AJT 라파예트/NNP + 백화점/NNG + 에서/JKB)))
+				(VP 	(NP_AJT 	(VNP_MOD 	(NP 	(L `/SS)
+								(NP 	(NP 	(NP_MOD 색/NNG + 의/JKG)
+										(NP 컬렉션/NNG))
+									(R '/SS)))
+							(VNP_MOD 이/VCP + 라는/ETM))
+						(NP_AJT 이름/NNG + 으로/JKB))
+					(VP 	(NP_OBJ 전시회/NNG + 를/JKO)
+						(VP 열/VV + 었/EP + 다/EF + ./SF)))))))
+; (del) 그가 디자인한 작품들에서 두드러지는 것은 색의 조화다. 
+(S 	(<del>NP_AJT 	(NP_AJT 목욕/NNG + 가운/NNG + 부터/JX)
+		(NP_AJT 	(NP_CNJ 탁자보/NNG + ,/SP)
+			(NP_AJT 	(NP_CNJ 냅킨/NNG + ,/SP)
+				(NP_AJT 앞치마/NNG + 까지/JX))))
+	(S 	(NP_SBJ 	(VP_MOD 	(NP_AJT 	(S_MOD 	(NP_SBJ 그/NP + 가/JKS)
+						(VP_MOD 디자인/NNG + 하/XSV + ᆫ/ETM))
+					(NP_AJT 작품/NNG + 들/XSN + 에서/JKB))
+				(VP_MOD 두드러지/VA + 는/ETM))
+			(NP_SBJ 것/NNB + 은/JX))
+		(VP 	(NP_MOD 색/NNG + 의/JKG)
+			(VNP 조화/NNG + 이/VCP + 다/EF + ./SF))))
+; (del) 원색끼리의 조화, (del) 기하학적 무늬, 꽃무늬 디자인이 주류를 이루고 있다. 
+(S 	(NP_SBJ 	(NP 	(NP 	(NP_CNJ 	(NP_MOD 	(<del>NP_MOD 남미/NNP + 풍/XSN + 의/JKG)
+						(NP_MOD 	(<del>VP_MOD 강렬/XR + 하/XSA + ᆫ/ETM)
+							(NP_MOD 원색/NNG + 끼리/XSN + 의/JKG)))
+					(NP_CNJ 조화/NNG + ,/SP))
+				(<del>NP 	(VP_MOD 	(AP 	(NP_AJT 수채화/NNG)
+							(AP 같이/MAG))
+						(VP_MOD 안온/NNG + 하/XSA + ᆫ/ETM))
+					(NP 배색/NNG)))
+			(<del>NP 등/NNB))
+		(NP_SBJ 	(NP_CNJ 	(<del>VP_MOD 	(NP_OBJ 	(NP_MOD 색/NNG + 의/JKG)
+						(NP_OBJ 분위기/NNG + 를/JKO))
+					(VP_MOD 강조/NNG + 하/XSV + 는/ETM))
+				(NP_CNJ 	(NP 기하학/NNG + 적/XSN)
+					(NP_CNJ 무늬/NNG + ,/SP)))
+			(NP_SBJ 	(NP 꽃/NNG + 무늬/NNG)
+				(NP_SBJ 디자인/NNG + 이/JKS))))
+	(VP 	(NP_OBJ 주류/NNG + 를/JKO)
+		(VP 	(VP 이루/VV + 고/EC)
+			(VP 있/VX + 다/EF + ./SF))))
+; 엠마누엘 웅가로는 "실내 장식품을 디자인할 때 옷을 만들 때와는 다른 해방감을 느낀다"고 말한다. 
+(S 	(NP_SBJ 	(NP 엠마누엘/NNP)
+		(NP_SBJ 웅가로/NNP + 는/JX))
+	(VP 	(VP_CMP 	(VP 	(L "/SS)
+				(VP 	(VP 	(NP_AJT 	(VP_MOD 	(NP_OBJ 	(NP 실내/NNG)
+									(NP_OBJ 장식품/NNG + 을/JKO))
+								(VP_MOD 디자인/NNG + 하/XSV + ᆯ/ETM))
+							(NP_AJT 때/NNG))
+						(VP 	(NP_OBJ 	(VP_MOD 	(NP_SBJ 	(VP_MOD 	(NP_OBJ 옷/NNG + 을/JKO)
+											(VP_MOD 만들/VV + ᆯ/ETM))
+										(NP_SBJ 때/NNG + 와/JKB + 는/JX))
+									(VP_MOD 다르/VA + ᆫ/ETM))
+								(NP_OBJ 해방감/NNG + 을/JKO))
+							(VP 느끼/VV + ᆫ다/EC)))
+					(R "/SS)))
+			(X_CMP 고/JKQ))
+		(VP 말/NNG + 하/XSV + ᆫ다/EF + ./SF)))
+-;  엠마누엘 웅가로는 옷 못지않게 공간이 주는 미학을 중요시해 왔다. 
+(S 	(NP_SBJ 	(NP 엠마누엘/NNP)
+		(NP_SBJ 웅가로/NNP + 는/JX))
+	(VP 	(VP_CMP 	(VP 	(L "/SS)
+				(VP 	(VP 	(NP_AJT 	(VP_MOD 	(NP_OBJ 	(NP 실내/NNG)
+									(NP_OBJ 장식품/NNG + 을/JKO))
+								(VP_MOD 디자인/NNG + 하/XSV + ᆯ/ETM))
+							(NP_AJT 때/NNG))
+						(VP 	(NP_OBJ 	(VP_MOD 	(NP_SBJ 	(VP_MOD 	(NP_OBJ 옷/NNG + 을/JKO)
+											(VP_MOD 만들/VV + ᆯ/ETM))
+										(NP_SBJ 때/NNG + 와/JKB + 는/JX))
+									(VP_MOD 다르/VA + ᆫ/ETM))
+								(NP_OBJ 해방감/NNG + 을/JKO))
+							(VP 느끼/VV + ᆫ다/EC)))
+					(R "/SS)))
+			(X_CMP 고/JKQ))
+		(VP 말/NNG + 하/XSV + ᆫ다/EF + ./SF)))
+; 매일 욕실에서 1시간 반 이상을 보낸다는 그는 체조와 텔레비전 시청, 식사까지 할 수 있는 욕실이 나와야 한다고 주장할 정도다. 
+(S 	(NP_SBJ 	(VP_MOD 	(NP_AJT 매일/NNG)
+			(VP_MOD 	(NP_AJT 욕실/NNG + 에서/JKB)
+				(VP_MOD 	(NP_OBJ 	(NP 	(NP 1/SN + 시간/NNG)
+							(NP 반/NNG))
+						(NP_OBJ 이상/NNG + 을/JKO))
+					(VP_MOD 보내/VV + ᆫ다는/ETM))))
+		(NP_SBJ 그/NP + 는/JX))
+	(VNP 	(S_CMP 	(NP_SBJ 	(VP_MOD 	(NP_OBJ 	(NP_CNJ 체조/NNG + 와/JC)
+						(NP_OBJ 	(NP_CNJ 	(NP 텔레비전/NNG)
+								(NP_CNJ 시청/NNG + ,/SP))
+							(NP_OBJ 식사/NNG + 까지/JX)))
+					(VP_MOD 	(NP_SBJ 	(VP_MOD 하/VV + ᆯ/ETM)
+							(NP_SBJ 수/NNB))
+						(VP_MOD 있/VV + 는/ETM)))
+				(NP_SBJ 욕실/NNG + 이/JKS))
+			(VP_CMP 	(VP 나오/VV + 아야/EC)
+				(VP_CMP 하/VX + ᆫ다고/EC)))
+		(VNP 	(VP_MOD 주장/NNG + 하/XSV + ᆯ/ETM)
+			(VNP 정도/NNG + 이/VCP + 다/EF + ./SF))))
+; (del) 늘 대하는 천을 실내용품을 위해 다시 디자인하는 (del)  그는 다른 디자이너들처럼 (del) 식기 디자인까지 활동 폭을 넓혀갈 계획이다. 
+(S 	(NP_SBJ 	(VP_MOD 	(S_CMP 	(NP_SBJ 	(VP_MOD 	(NP_OBJ 	(<del>VP 	(NP_OBJ 옷/NNG + 을/JKO)
+								(VP 만들/VV + 느라/EC))
+							(NP_OBJ 	(VP_MOD 	(AP 늘/MAG)
+									(VP_MOD 대하/VV + 는/ETM))
+								(NP_OBJ 천/NNG + 을/JKO)))
+						(VP_MOD 	(VP 	(NP_OBJ 실내/NNG + 용품/NNG + 을/JKO)
+								(VP 위하/VV + 아/EC))
+							(VP_MOD 	(AP 다시/MAG)
+								(VP_MOD 디자인/NNG + 하/XSV + 는/ETM))))
+					(<del>NP_SBJ 것/NNB + 은/JX))
+				(<del>S_CMP 	(S 	(L `/SS)
+						(S 	(NP 	(VP_MOD 	(NP_OBJ 상상력/NNG + 을/JKO)
+									(VP_MOD 	(AP 마음껏/MAG)
+										(VP_MOD 펼치/VV + 는/ETM)))
+								(NP 	(VP_MOD 즐겁/VA + ᆫ/ETM)
+									(NP 놀이/NNG)))
+							(R '/SS)))
+					(X_CMP 라고/JKQ)))
+			(<del>VP_MOD 말/NNG + 하/XSV + 는/ETM))
+		(NP_SBJ 그/NP + 는/JX))
+	(VNP 	(VP_MOD 	(NP_AJT 	(DP 다른/MM)
+				(NP_AJT 디자이너/NNG + 들/XSN + 처럼/JKB))
+			(VP_MOD 	(NP_AJT 	(NP 	(NP 	(<del>NP_CNJ 찻잔/NNG + ,/SP)
+							(<del>NP 접시/NNG + 등/NNB))
+						(NP 식기/NNG))
+					(NP_AJT 디자인/NNG + 까지/JX))
+				(VP_MOD 	(NP_OBJ 	(NP 활동/NNG)
+						(NP_OBJ 폭/NNG + 을/JKO))
+					(VP_MOD 넓히/VV + 어/EC + 가/VX + ᆯ/ETM))))
+		(VNP 계획/NNG + 이/VCP + 다/EF + ./SF)))
+ </body>
+ </text>
+</tei.2>

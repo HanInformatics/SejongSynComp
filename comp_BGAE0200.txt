@@ -1,0 +1,395 @@
+<!DOCTYPE tei.2 SYSTEM "c:\sgml\dtd\tei2.dtd" [
+	<!ENTITY % TEI.corpus "INCLUDE">
+	<!ENTITY % TEI.extensions.ent SYSTEM "sejong1.ent">
+	<!ENTITY % TEI.extensions.dtd SYSTEM "sejong1.dtd">
+]>
+
+<tei.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>한겨레신문 2001년 기사: 문화, 형태소 분석 전자파일</title>
+			<author>한겨레신문사</author>
+			<sponsor>대한민국 문화관광부</sponsor>
+			<respStmt>
+				<resp>문헌입력, 표준화, 형태정보 부착</resp>
+				<name>고려대학교 민족문화연구원</name>
+			</respStmt>
+		</titleStmt>
+		<extent>52,195어절, 4,552문장</extent>
+		<publicationStmt>
+			<distributor>국립국어연구원</distributor>
+			<idno>BGAE0200.txt, 형태분석:BTAE0200.txt, 원본:BRAE0200.txt</idno>
+			<availability>배포 불가</availability>
+		</publicationStmt>
+		<notesStmt>
+			<note>21세기 세종계획 5차년도(2002년) 원시말뭉치에서 선정</note>
+		</notesStmt>
+		<sourceDesc>
+			<bibl>
+				<author>한겨레신문사</author>
+				<title>한겨례신문 2001년 기사: 문화</title>
+				<pubPlace>서울</pubPlace>
+				<publisher>한겨레신문사</publisher>
+				<date>2001</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>21세기 세종계획 형태분석  말뭉치 구축</projectDesc>
+		<samplingDecl>21세기 세종계획 5차년도(2002년) 원시말뭉치 파일을 형태 정보 부착 파일로 변환</samplingDecl>
+		<editorialDecl>21세기 세종계획 형태분석  말뭉치 구축 지침(2004-1)에 따른 형태 정보 부착</editorialDecl>
+	</encodingDesc>
+	<profileDesc>
+		<creation>
+			<date>2002</date>
+		</creation>
+		<langUsage>
+			<language id="KO" usage="99">한국어, 표준어</language>
+		</langUsage>
+		<textClass>
+			<catRef scheme="SJ21" target="M1114">신문 : 신문, 보도·해설-문화</catRef>
+		</textClass>
+	</profileDesc>
+	<revisionDesc>
+		<respStmt>
+			<resp>프로젝트 책임자</resp>
+			<name>김흥규</name>
+		</respStmt>
+		<change>
+			<date>2004</date>
+			<respStmt>
+				<resp>연구보조원</resp>
+				<name>송경화, 이영제, 박현아</name>
+			</respStmt>
+			<item>21세기 세종계획 형태분석 말뭉치 구축 지침(2002-2)에 따른 형태소 정보 검토, 수정</item>
+			<note>원문(52,224 어절) 띄어쓰기 오류 등의 수정에 따른 어절수 변경</note>
+		</change>
+		<change>
+			<date>2006</date>
+			<respStmt>
+				<resp>연구원</resp>
+				<name>홍정하</name>
+				<resp>연구보조원</resp>
+				<name>김주영, 왕정미</name>
+			</respStmt>
+			<item>21세기 세종계획 구문 분석 말뭉치 구축 지침(2006-1)에 따른 구문 정보 부착</item>
+		</change>
+		<change>
+			<date>2007</date>
+			<respStmt>
+				<resp>연구책임자</resp>
+				<name>김흥규</name>
+				<resp>연구원</resp>
+				<name>홍정하</name>
+				<resp>연구보조원</resp>
+				<name>김주영</name>
+			</respStmt>
+			<item>파일명 변환, 유니코드 변환. 일부 오류 수정</item>
+		</change>
+		<change>
+			<date>2009</date>
+			<respStmt>
+				<resp>국립국어원 업무위탁</resp>
+				<name>강승식</name>
+			</respStmt>
+			<item>오류 수정</item>
+		</change>
+		<change>
+			<date>2010-03-20</date>
+			<respStmt>
+				<resp>N/A</resp>
+				<tname>이동주</tname>
+			</respStmt>
+			<item>꼬꼬마 세종 말뭉치 활용 도구 적용을 위한 전체 파일 대상 태그 오류 일괄 수정</item>
+		</change>
+	</revisionDesc>
+</teiHeader>
+	<!ENTITY % TEI.corpus "INCLUDE">
+	<!ENTITY % TEI.extensions.ent SYSTEM "sejong1.ent">
+	<!ENTITY % TEI.extensions.dtd SYSTEM "sejong1.dtd"> ]>
+<tei.2>
+	<text>
+		<body>
+; 2000-01-05 
+(NP 2000/SN + -/SS + 01/SN + -/SS + 05/SN)
+; 25면 01판 1068자 
+(NP 	(NP 	(NP 25/SN + 면/NNG)
+		(NP 01/SN + 판/NNG))
+	(NP 1068/SN + 자/NNG))
+; 얼어붙은 연극계 희망씨앗 움틀까 
+; (del) 연극계 희망씨앗 움틀까 
+(S 	(NP_AJT 	(<del>VP_MOD 얼어붙/VV + 은/ETM)
+		(NP_AJT 연극/NNG + 계/XSN))
+	(S 	(NP_SBJ 희망/NNG + 씨앗/NNG)
+		(VP 움트/VV + ᆯ까/EC)))
+; 연극 회생 대책 마련을 위한 (del) 목소리가 높아지고 있다. 
+(S 	(NP_SBJ 	(VP_MOD 	(NP_OBJ 	(NP 	(NP 연극/NNG)
+					(NP 회생/NNG))
+				(NP_OBJ 	(NP 대책/NNG)
+					(NP_OBJ 마련/NNG + 을/JKO)))
+			(VP_MOD 위하/VV + ᆫ/ETM))
+		(NP_SBJ 	(<del>NP_MOD 연극인/NNG + 들/XSN + 의/JKG)
+			(NP_SBJ 목소리/NNG + 가/JKS)))
+	(VP 	(VP 높/VA + 아/EC + 지/VX + 고/EC)
+		(VP 있/VX + 다/EF + ./SF)))
+; "Q=2" 
+(Q "/SS + Q=2/Q + "/SS)
+; Q1(del) 연극계가 올 데까지 왔다. 
+(S;Q1 	(<del>NP_AJT 이제/NNG + 는/JX)
+	(S 	(NP_SBJ 연극/NNG + 계/XSN + 가/JKS)
+		(VP 	(NP_AJT 	(VP_MOD 오/VV + ᆯ/ETM)
+				(NP_AJT 데/NNB + 까지/JX))
+			(VP 오*/VV + 았/EP + 다/EF + ./SF))))
+; Q2과도기가 아니다. 
+(VP;Q2 	(NP_CMP 과도기/NNG + 가/JKC)
+	(VP 아니/VCN + 다/EF + ./SF))
+; 한국연극배우협회 최종원 회장의 얘기는 과장된 것이 아니다. 
+(S 	(NP_SBJ 	(NP_MOD 	(NP 한국연극배우협회/NNP)
+			(NP_MOD 	(NP 최종원/NNP)
+				(NP_MOD 회장/NNG + 의/JKG)))
+		(NP_SBJ 얘기/NNG + 는/JX))
+	(VP 	(NP_CMP 	(VP_MOD 과장/NNG + 되/XSV + ᆫ/ETM)
+			(NP_CMP 것/NNB + 이/JKC))
+		(VP 아니/VCN + 다/EF + ./SF)))
+; 연극인들의 공통된 위기 의식이다. 
+(VNP 	(NP_MOD 연극인/NNG + 들/XSN + 의/JKG)
+	(VNP 	(VP_MOD 공통/NNG + 되/XSV + ᆫ/ETM)
+		(VNP 	(NP 위기/NNG)
+			(VNP 의식/NNG + 이/VCP + 다/EF + ./SF))))
+; 아이엠에프 구제금융 사태와 함께 줄어들던 관객은 (del) 전혀 회복되지 않고 있다. 
+(S 	(NP_SBJ 	(VP_MOD 	(AP 	(NP_AJT 	(NP 	(NP 아이엠에프/NNP)
+						(NP 구제/NNG + 금융/NNG))
+					(NP_AJT 사태/NNG + 와/JKB))
+				(AP 함께/MAG))
+			(VP_MOD 줄어들/VV + 던/ETM))
+		(NP_SBJ 관객/NNG + 은/JX))
+	(VP 	(<del>NP_AJT 	(S_MOD 	(NP_SBJ 경제/NNG + 가/JKS)
+				(VP_MOD 	(VP 되살아나/VV + 고/EC)
+					(VP_MOD 있/VX + 는/ETM)))
+			(NP_AJT 지금/NNG + 도/JX))
+		(VP 	(AP 전혀/MAG)
+			(VP 	(VP 	(VP 회복/NNG + 되/XSV + 지/EC)
+					(VP 않/VX + 고/EC))
+				(VP 있/VX + 다/EF + ./SF)))))
+; 실제 대학로에는 10명 미만의 관객을 놓고 공연하는 극장이 많다. 
+(S 	(NP_AJT 실제/NNG)
+	(S 	(NP_AJT 대학로/NNP + 에/JKB + 는/JX)
+		(S 	(NP_SBJ 	(VP_MOD 	(VP 	(NP_OBJ 	(NP_MOD 	(NP 10/SN + 명/NNB)
+								(NP_MOD 미만/NNG + 의/JKG))
+							(NP_OBJ 관객/NNG + 을/JKO))
+						(VP 놓/VV + 고/EC))
+					(VP_MOD 공연/NNG + 하/XSV + 는/ETM))
+				(NP_SBJ 극장/NNG + 이/JKS))
+			(VP 많/VA + 다/EF + ./SF))))
+; (del) 공연이 취소된 극장도 있다. 
+(S 	(NP_SBJ 	(S_MOD 	(<del>S 	(NP_SBJ 관객/NNG + 이/JKS)
+				(VP 	(AP 전혀/MAG)
+					(VP 	(VP 오/VV + 지/EC)
+						(VP 않/VX + 아/EC))))
+			(S_MOD 	(NP_SBJ 공연/NNG + 이/JKS)
+				(VP_MOD 취소/NNG + 되/XSV + ᆫ/ETM)))
+		(NP_SBJ 극장/NNG + 도/JX))
+	(VP 있/VV + 다/EF + ./SF))
+; (del) 연극인들의 생활고도 더욱 심화하고 있다. 
+(S 	(<del>S 	(NP_SBJ 극장/NNG + 이/JKS)
+		(VP 	(NP_AJT 	(NP 빈사/NNG)
+				(NP_AJT 상태/NNG + 에/JKB))
+			(VP 놓이/VV + 면서/EC)))
+	(S 	(NP_SBJ 	(NP_MOD 연극인/NNG + 들/XSN + 의/JKG)
+			(NP_SBJ 생활고/NNG + 도/JX))
+		(VP 	(AP 더욱/MAG)
+			(VP 	(VP 심화/NNG + 하/XSV + 고/EC)
+				(VP 있/VX + 다/EF + ./SF)))))
+; 최근 연극배우협회 조사에 따르면 배우 409명 가운데 (del) 연간 300만원도 안되는 배우가 184명(45%)에 이르는 것으로 조사됐다. 
+(VP 	(VP 	(NP_AJT 	(NP 	(NP_AJT 최근/NNG)
+				(NP 연극배우/NNG + 협회/NNG))
+			(NP_AJT 조사/NNG + 에/JKB))
+		(VP 따르/VV + 면/EC))
+	(VP 	(NP_AJT 	(S_MOD 	(NP_AJT 	(NP 	(NP 배우/NNG)
+						(NP 409/SN + 명/NNB))
+					(NP_AJT 가운데/NNG))
+				(S_MOD 	(<del>S 	(NP_SBJ 	(NP 	(NP 	(NP 연/NNG)
+									(NP 1/SN + 천만/NR + 원/NNB))
+								(NP 이상/NNG))
+							(NP_SBJ 소득자/NNG + 조차/JX))
+						(VP 	(NP_AJT 65/SN + 명/NNB + (/SS + 16/SN + %/SW + )/SS + 에/JKB)
+							(VP 불과/XR + 하/XSA + 고/EC + ,/SP)))
+					(S_MOD 	(NP_SBJ 	(S_MOD 	(NP_SBJ 	(NP 연간/NNG)
+									(NP_SBJ 300/SN + 만/NR + 원/NNB + 도/JX))
+								(VP_MOD 안/MAG + 되/XSV + 는/ETM))
+							(NP_SBJ 배우/NNG + 가/JKS))
+						(VP_MOD 	(NP_AJT 184/SN + 명/NNB + (/SS + 45/SN + %/SW + )/SS + 에/JKB)
+							(VP_MOD 이르/VV + 는/ETM)))))
+			(NP_AJT 것/NNB + 으로/JKB))
+		(VP 조사/NNG + 되/XSV + 었/EP + 다/EF + ./SF)))
+; 연극배우협회가 최근 이와는 별도로 (del) 설문조사를 한 결과 역시 희극적이기까지 하다. 
+(S 	(NP_SBJ 	(S_MOD 	(NP_SBJ 연극배우/NNG + 협회/NNG + 가/JKS)
+			(VP_MOD 	(NP_AJT 최근/NNG)
+				(VP_MOD 	(NP_AJT 	(NP_AJT 이/NP + 와/JKB + 는/JX)
+						(NP_AJT 별도/NNG + 로/JKB))
+					(VP_MOD 	(<del>VP_AJT 	(NP_OBJ 	(NP 연극인/NNG)
+								(NP_OBJ 110/SN + 명/NNB + 을/JKO))
+							(NP_AJT 대상/NNG + 으로/JKB))
+						(VP_MOD 	(NP_OBJ 설문/NNG + 조사/NNG + 를/JKO)
+							(VP_MOD 하/VV + ᆫ/ETM))))))
+		(NP_SBJ 결과/NNG))
+	(VP 	(AP 역시/MAJ)
+		(VP 	(VNP 희극/NNG + 적/XSN + 이/VCP + 기/ETN + 까지/JX)
+			(VP 하/VX + 다/EF + ./SF))))
+; 연극인들의 최저 생계비 보장을 위해 (del) 묻는 질문에 무려 92명(84%)이 찬성한 것이다. 
+(S 	(NP_AJT 	(VP_MOD 	(VNP_OBJ 	(VP 	(NP_OBJ 	(NP_MOD 연극인/NNG + 들/XSN + 의/JKG)
+						(NP_OBJ 	(NP 	(NP 최저/NNG)
+								(NP 생계비/NNG))
+							(NP_OBJ 보장/NNG + 을/JKO)))
+					(VP 위하/VV + 아/EC))
+				(<del>VNP_OBJ 	(NP_OBJ 연극/NNG + 을/JKO)
+					(VNP_OBJ 	(NP_AJT 	(NP 공공/NNG + 근로/NNG + 사업/NNG)
+							(NP_AJT 부문/NNG + 에/JKB))
+						(VNP_OBJ 	(VP_MOD 포함/NNG + 시키/XSV + ᆯ/ETM)
+							(VNP_OBJ 것/NNB + 이/VCP + ᆫ지/EC + 를/JKO)))))
+			(VP_MOD 묻/VV + 는/ETM))
+		(NP_AJT 질문/NNG + 에/JKB))
+	(S 	(AP 무려/MAG)
+		(S 	(NP_SBJ 92/SN + 명/NNB + (/SS + 84/SN + %/SW + )/SS + 이/JKS)
+			(VNP 	(VP_MOD 찬성/NNG + 하/XSV + ᆫ/ETM)
+				(VNP 것/NNB + 이/VCP + 다/EF + ./SF)))))
+; 연극인들의 어려운 경제사정을 웅변하는 반응이랄까. 
+(VNP 	(VP_MOD 	(NP_OBJ 	(NP_MOD 연극인/NNG + 들/XSN + 의/JKG)
+			(NP_OBJ 	(VP_MOD 어렵/VA + ᆫ/ETM)
+				(NP_OBJ 경제/NNG + 사정/NNG + 을/JKO)))
+		(VP_MOD 웅변/NNG + 하/XSV + 는/ETM))
+	(VNP 반응/NNG + 이/VCP + 랄까/EF + ./SF))
+; 연극이 공공근로사업으로 인정받게 되면 (del) 최저생계비를 받을 수 있다고 한다. 
+(VP 	(S_CMP 	(S 	(NP_SBJ 연극/NNG + 이/JKS)
+			(VP 	(NP_AJT 공공/NNG + 근로/NNG + 사업/NNG + 으로/JKB)
+				(VP 	(VP 인정받/VV + 게/EC)
+					(VP 되/VV + 면/EC))))
+		(S_CMP 	(<del>NP_AJT 한/MM + 달/NNG + 에/JKB)
+			(S_CMP 	(NP_OBJ 	(<del>NP_MOD 	(NP 50/SN + 만/NR + 원/NNB)
+						(NP_MOD 정도/NNG + 의/JKG))
+					(NP_OBJ 최저/NNG + 생계비/NNG + 를/JKO))
+				(S_CMP 	(NP_SBJ 	(VP_MOD 받/VV + 을/ETM)
+						(NP_SBJ 수/NNB))
+					(VP_CMP 있/VV + 다고/EC)))))
+	(VP 하*/VV + ᆫ다/EF + ./SF))
+; 연극인들의 자구책 움직임도 나온다. 
+(S 	(NP_SBJ 	(NP_MOD 연극인/NNG + 들/XSN + 의/JKG)
+		(NP_SBJ 	(NP 자구책/NNG)
+			(NP_SBJ 움직임/NNG + 도/JX)))
+	(VP 나오/VV + ᆫ다/EF + ./SF))
+; 연극인들은 ' 연극회생을 위한 비상대책위원회 ' (del) 를 구성해 활동에 나섰다. 
+(S 	(NP_SBJ 연극인/NNG + 들/XSN + 은/JX)
+	(VP 	(VP 	(NP_OBJ 	(NP 	(L '/SS)
+					(NP 	(NP 	(VP_MOD 	(NP_OBJ 연극/NNG + 회생/NNG + 을/JKO)
+								(VP_MOD 위하/VV + ᆫ/ETM))
+							(NP 비상/NNG + 대책/NNG + 위원회/NNG))
+						(R '/SS)))
+				(NP_OBJ 	(<del>NP_PRN 	(L (/SS)
+						(NP_PRN 	(NP 	(NP 임시/NNG + 대표/NNG)
+								(NP 	(NP 정진수/NNP)
+									(NP 	(NP 성균관대/NNP)
+										(NP 교수/NNG))))
+							(R_PRN )/SS)))
+					(X_OBJ 를/JKO)))
+			(VP 구성/NNG + 하/XSV + 아/EC))
+		(VP 	(NP_AJT 활동/NNG + 에/JKB)
+			(VP 나서/VV + 었/EP + 다/EF + ./SF))))
+; 대책위는 (del) 문예진흥기금의 공연장 모금을 즉각 중단할 것을 요구하고 있다. 
+(S 	(NP_SBJ 대책위/NNG + 는/JX)
+	(VP 	(<del>AP 우선/MAG)
+		(VP 	(NP_OBJ 	(VP_MOD 	(NP_OBJ 	(<del>VP_MOD 	(NP_AJT 공연/NNG + 계/XSN + 에/JKB)
+							(VP_MOD 	(NP_CMP 	(VP_MOD 크/VA + ᆫ/ETM)
+									(NP_CMP 짐/NNG + 이/JKC))
+								(VP_MOD 	(VP 되/VV + 고/EC)
+									(VP_MOD 있/VX + 는/ETM))))
+						(NP_OBJ 	(NP_MOD 문예/NNG + 진흥/NNG + 기금/NNG + 의/JKG)
+							(NP_OBJ 	(NP 공연장/NNG)
+								(NP_OBJ 모금/NNG + 을/JKO))))
+					(VP_MOD 	(AP 즉각/MAG)
+						(VP_MOD 중단/NNG + 하/XSV + ᆯ/ETM)))
+				(NP_OBJ 것/NNB + 을/JKO))
+			(VP 	(VP 요구/NNG + 하/XSV + 고/EC)
+				(VP 있/VX + 다/EF + ./SF)))))
+; 문예진흥기금법은 (del) 폐지가 시급하다는 것이다. 
+(S 	(NP_SBJ 문예/NNG + 진흥/NNG + 기금법/NNG + 은/JX)
+	(S 	(<del>VP 	(VNP 	(VP_MOD 오/VV + 는/ETM)
+				(VNP 2003/SN + 년/NNB + 이/VCP + 면/EC))
+			(VP 	(VNP 	(VP_MOD 폐지/NNG + 되/XSV + ᆯ/ETM)
+					(VNP 예정/NNG + 이/VCP + 기/ETN + ᆫ/JX))
+				(VP 하/VX + 지만/EC + ,/SP)))
+		(S 	(<del>VP 	(NP_OBJ 	(NP_MOD 	(VP_MOD 	(NP_OBJ 문예/NNG + 진흥/NNG + 기금/NNG + 을/JKO)
+							(VP_MOD 	(AP 고스란히/MAG)
+								(VP_MOD 	(NP_AJT 부채/NNG + 로/JKB)
+									(VP_MOD 떠안/VV + 는/ETM))))
+						(NP_MOD 	(NP 적자/NNG)
+							(NP_MOD 극단/NNG + 의/JKG)))
+					(NP_OBJ 아사/NNG + 를/JKO))
+				(VP 	(VP 부채/NNG + 질/XSN + 하/XSV + 고/EC)
+					(VP 있/VX + 어/EC)))
+			(S 	(NP_SBJ 폐지/NNG + 가/JKS)
+				(VNP 	(VP_MOD 시급/XR + 하/XSA + 다는/ETM)
+					(VNP 것/NNB + 이/VCP + 다/EF + ./SF))))))
+; 비대위는 (del) " 경제적 고통이 가장 심한 배우들에게도 지원금이 돌아갈 수 있도록 지원금의 50%는 배우 출연료로 사용하는 것을 의무화해 달라 " 고 요구했다. 
+(S 	(NP_SBJ 비대위/NNG + 는/JX)
+	(VP 	(VP_CMP 	(<del>S 	(S 	(L "/SS)
+					(S 	(S 	(NP_SBJ 	(VP_MOD 	(NP_OBJ 공연/NNG + 예술/NNG + 을/JKO)
+									(VP_MOD 위하/VV + ᆫ/ETM))
+								(NP_SBJ 	(NP_MOD 정부/NNG + 의/JKG)
+									(NP_SBJ 특별/XR + 지원금/NNG + 이/JKS)))
+							(VP 	(NP_OBJ 	(NP_CNJ 부익부/NNG + 빈익빈/NNG + 과/JC)
+									(NP_OBJ 분열/NNG + 을/JKO))
+								(VP 	(VP 조장/NNG + 하/XSV + 고/EC)
+									(VP 있/VX + 다/EC))))
+						(R "/SS)))
+				(X 며/EC))
+			(VP_CMP 	(VP 	(L "/SS)
+					(VP 	(VP_CMP 	(S 	(NP_SBJ 	(S_MOD 	(NP_SBJ 	(NP 경제/NNG + 적/XSN)
+											(NP_SBJ 고통/NNG + 이/JKS))
+										(VP_MOD 	(AP 가장/MAG)
+											(VP_MOD 심하/VA + ᆫ/ETM)))
+									(NP_SBJ 배우/NNG + 들/XSN + 에게/JKB + 도/JX))
+								(S 	(NP_SBJ 지원금/NNG + 이/JKS)
+									(S 	(NP_SBJ 	(VP_MOD 돌아가/VV + ᆯ/ETM)
+											(NP_SBJ 수/NNB))
+										(VP 있/VV + 도록/EC))))
+							(VP_CMP 	(NP_OBJ 	(VP_MOD 	(NP_OBJ 	(NP_MOD 지원금/NNG + 의/JKG)
+											(NP_OBJ 50/SN + %/SW + 는/JX))
+										(VP_MOD 	(NP_AJT 	(NP 배우/NNG)
+												(NP_AJT 출연료/NNG + 로/JKB))
+											(VP_MOD 사용/NNG + 하/XSV + 는/ETM)))
+									(NP_OBJ 것/NNB + 을/JKO))
+								(VP_CMP 	(VP 의무/NNG + 화/XSN + 하/XSV + 아/EC)
+									(VP_CMP 달/VX + 라/EC))))
+						(R "/SS)))
+				(X_CMP 고/JKQ)))
+		(VP 요구/NNG + 하/XSV + 았/EP + 다/EF + ./SF)))
+; 연극인들은 문예진흥원과 연극협회에 대해서도 (del) 연극인들의 어려운 현실 타개를 위해 앞장서 줄 것을 촉구하고 있다. 
+(S 	(NP_SBJ 연극인/NNG + 들/XSN + 은/JX)
+	(VP 	(VP 	(VP 	(NP_AJT 	(NP_CNJ 문예/NNG + 진흥원/NNG + 과/JC)
+					(NP_AJT 연극/NNG + 협회/NNG + 에/JKB))
+				(VP 대하/VV + 아서/EC + 도/JX))
+			(<del>VP 	(NP_AJT 	(VP_MOD 	(NP_OBJ 현실/NNG + 을/JKO)
+						(VP_MOD 도외/NNG + 시/XSN + 하/XSV + ᆫ/ETM))
+					(NP_AJT 채/NNB))
+				(VP 	(NP_OBJ 	(NP 관변/NNG)
+						(NP_OBJ 성격/NNG + 만/JX))
+					(VP 	(VP 노출/NNG + 하/XSV + 고/EC)
+						(VP 있/VX + 다며/EC)))))
+		(VP 	(NP_OBJ 	(VP_MOD 	(VP 	(NP_OBJ 	(NP 	(NP_MOD 연극인/NNG + 들/XSN + 의/JKG)
+								(NP 	(VP_MOD 어렵/VA + ᆫ/ETM)
+									(NP 현실/NNG)))
+							(NP_OBJ 타개/NNG + 를/JKO))
+						(VP 위하/VV + 아/EC))
+					(VP_MOD 	(VP 앞장서/VV + 어/EC)
+						(VP_MOD 주/VX + ᆯ/ETM)))
+				(NP_OBJ 것/NNB + 을/JKO))
+			(VP 	(VP 촉구/NNG + 하/XSV + 고/EC)
+				(VP 있/VX + 다/EF + ./SF)))))
+; 조연현 기자 cho@hani.co.kr 
+(NP 	(NP 	(NP 조연현/NNP)
+		(NP 기자/NNG))
+	(NP cho/SL + @/SW + hani/SL + ./SF + co/SL + ./SF + kr/SL))
+		</body>
+	</text>
+</tei.2>

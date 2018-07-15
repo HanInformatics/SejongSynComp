@@ -1,0 +1,728 @@
+﻿<!DOCTYPE tei.2 SYSTEM "c:\sgml\dtd\tei2.dtd" [
+	<!ENTITY % TEI.corpus "INCLUDE">
+	<!ENTITY % TEI.extensions.ent SYSTEM "sejong1.ent">
+	<!ENTITY % TEI.extensions.dtd SYSTEM "sejong1.dtd">
+]>
+
+<tei.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>조선일보 사회(91),  구문 분석 전자파일</title>
+			<author>조선일보사</author>
+			<sponsor>대한민국 문화관광부</sponsor>
+			<respStmt>
+				<resp>문헌입력, 표준화, 구문 정보 부착</resp>
+				<name>고려대학교 민족문화연구원</name>
+			</respStmt>
+		</titleStmt>
+		<extent>9,082  어절, 617 문장</extent>
+		<publicationStmt>
+			<distributor>국립국어연구원</distributor>
+			<idno>BGAA0164.txt, 형태분석: BTAA0164.txt, 원본:BRAA0164.txt</idno>
+			<availability>배포 불가</availability>
+		</publicationStmt>
+		<notesStmt>
+			<note>원문의 모든 부분에 구문 정보 부착</note>
+		</notesStmt>
+		<sourceDesc>
+			<bibl>
+				<author>조선일보사</author>
+				<title>조선일보 사회(91)</title>
+				<pubPlace>서울</pubPlace>
+				<publisher>조선일보사</publisher>
+				<date>1991</date>
+			</bibl>
+		</sourceDesc>
+	</fileDesc>
+	<encodingDesc>
+		<projectDesc>21세기 세종계획 2002년도 구문 분석 말뭉치 구축</projectDesc>
+		<samplingDecl>21세기 세종계획 2차년도 형태소 정보 부착 말뭉치 파일을 구문 정보 부착 파일로 변환</samplingDecl>
+		<editorialDecl>21세기 세종계획 구문 분석 말뭉치 구축 지침(2002)에 따른 구문 정보 부착</editorialDecl>
+	</encodingDesc>
+	<profileDesc>
+		<creation>
+			<date>1991</date>
+		</creation>
+		<langUsage>
+			<language id="KO" usage="99">한국어, 표준어</language>
+		</langUsage>
+		<textClass>
+			<catRef scheme="SJ21" target="M1112">신문 : 보도 · 해설 - 사회</catRef>
+		</textClass>
+	</profileDesc>
+	<revisionDesc>
+		<respStmt>
+			<resp>프로젝트 책임자</resp>
+			<name>김흥규</name>
+		</respStmt>
+		<change>
+			<date>1999</date>
+			<respStmt>
+				<resp>연구보조원</resp>
+				<name>이봉원, 김일환, 차준경, 최승철, 조진현, 김태훈</name>
+			</respStmt>
+			<item>21세기 세종계획 형태소 분석 말뭉치 구축 지침(1999-4)에 따른 형태소 정보 검토, 수정</item>
+		</change>
+		<change>
+			<date>2002</date>
+			<respStmt>
+				<resp>연구보조원</resp>
+				<name>김의수</name>
+			</respStmt>
+			<item>21세기 세종계획 구문 분석 말뭉치 구축 지침(2002)에 따른 구문 정보 부착</item>
+		</change>
+		<change>
+			<date>2007</date>
+			<respStmt>
+				<resp>연구책임자</resp>
+				<name>김흥규</name>
+				<resp>연구원</resp>
+				<name>홍정하</name>
+				<resp>연구보조원</resp>
+				<name>김주영</name>
+			</respStmt>
+			<item>파일명 변환, 유니코드 변환. 일부 오류 수정</item>
+		</change>
+		<change>
+			<date>2009</date>
+			<respStmt>
+				<resp>국립국어원 업무위탁</resp>
+				<name>강승식</name>
+			</respStmt>
+			<item>오류 수정</item>
+		</change>
+		<change>
+			<date>2010-03-20</date>
+			<respStmt>
+				<resp>N/A</resp>
+				<tname>이동주</tname>
+			</respStmt>
+			<item>꼬꼬마 세종 말뭉치 활용 도구 적용을 위한 전체 파일 대상 태그 오류 일괄 수정</item>
+		</change>
+	</revisionDesc>
+</teiHeader>
+<tei.2>
+ <text>
+ <body>
+; 1991/01/05 19 
+(NP 	(NP 1991/SN + //SP + 01/SN + //SP + 05/SN)
+	(NP 19/SN))
+; 새해 주제 `다시 뛰자' 기획시리즈 / 
+(NP 	(NP 	(VP 	(NP 	(NP 새해/NNG)
+				(NP 주제/NNG))
+			(VP 	(L `/SS)
+				(VP 	(VP 	(AP 다시/MAG)
+						(VP 뛰/VV + 자/EC))
+					(R '/SS))))
+		(NP 기획/NNG + 시리즈/NNG))
+	(X //SP))
+; 일할 사람이 없다:2 
+(S 	(NP_SBJ 	(VP_MOD 일/NNG + 하/XSV + ㄹ/ETM)
+		(NP_SBJ 사람/NNG + 이/JKS))
+	(VP 없/VA + 다/EF + :/SP + 2/SN))
+; 젊은 일손 찾기 "별따기" / 
+(S 	(S 	(VP_SBJ 	(NP_OBJ 	(VP_MOD 젊/VA + 은/ETM)
+				(NP_OBJ 일손/NNG))
+			(VP_SBJ 찾/VV + 기/ETN))
+		(VP "/SS + 별/NNG + 따/VV + 기/ETN + "/SS))
+	(X //SP))
+; 건설회사마다 구인 아우성 / 
+(NP 	(NP 	(NP_AJT 건설/NNG + 회사/NNG + 마다/JX)
+		(NP 	(NP 구인/NNG)
+			(NP 아우성/NNG)))
+	(X //SP))
+; 일당 7만원에도 못 구해 / 
+(VP 	(VP 	(NP_AJT 	(NP 일당/NNG)
+			(NP_AJT 7/SN + 만/NR + 원/NNG + 에/JKB + 도/JX))
+		(VP 	(AP 못/MAG)
+			(VP 구하/VV + 아/EC)))
+	(X //SP))
+; 공사장엔 40∼50대 일색 / 
+(NP 	(NP 	(NP_AJT 공사장/NNG + 에/JKB + ㄴ/JX)
+		(NP 	(NP 40/SN + ∼/SO + 50/SN + 대/NNB)
+			(NP 일색/NNG)))
+	(X //SP))
+; 임금과 상관없이 "궂은 일만은 안한다" / 
+(VP 	(VP 	(AP 	(NP_AJT 임금/NNG + 과/JKB)
+			(AP 상관/NNG + 없이/MAG))
+		(VP 	(L "/SS)
+			(VP 	(VP 	(NP_OBJ 	(VP_MOD 궂/VA + 은/ETM)
+						(NP_OBJ 일/NNG + 만/JX + 은/JX))
+					(VP 안/MAG + 하/VV + ㄴ다/EC))
+				(R "/SS))))
+	(X //SP))
+; `단순 인력' 부족 심각… 
+(NP 	(NP 	(NP 	(L `/SS)
+			(NP 	(NP 	(NP 단순/NNG)
+					(NP 인력/NNG))
+				(R '/SS)))
+		(NP 부족/NNG))
+	(NP 심각/XR + …/SE))
+; 산업 공동화 우려 
+(NP 	(NP 	(NP 산업/NNG)
+		(NP 공동/NNG + 화/XSN))
+	(NP 우려/NNG))
+; 4일 서울 여의도 A오피스텔 신축 공사 현장. 
+(NP 	(NP 4/SN + 일/NNB)
+	(NP 	(NP 	(NP 서울/NNP)
+			(NP 여의도/NNP))
+		(NP 	(NP 	(NP 	(NP A/SL + 오피스텔/NNG)
+					(NP 신축/NNG))
+				(NP 공사/NNG))
+			(NP 현장/NNG + ./SF))))
+; (del) 20∼30대의 젊은 일꾼은 찾아 볼 수 없었다. 
+(S 	(<del>S 	(NP_AJT 	(NP_MOD 혹한/NNG + 의/JKG)
+			(NP_AJT 날씨/NNG + 에/JKB + 도/JX))
+		(S 	(NP_SBJ 	(NP_MOD 	(NP 1/SN + 백/NR + 여/XSN)
+					(NP_MOD 명/NNB + 의/JKG))
+				(NP_SBJ 일/NNG + 꾼/XSN + 들/XSN + 이/JKS))
+			(VNP 	(NP_AJT 작업/NNG + 에/JKB)
+				(VNP 한창/NNG + 이/VCP + 었/EP + 지만/EC))))
+	(S 	(NP_OBJ 	(NP_MOD 20/SN + ∼/SO + 30/SN + 대/NNB + 의/JKG)
+			(NP_OBJ 	(VP_MOD 젊/VA + 은/ETM)
+				(NP_OBJ 일꾼/NNG + 은/JX)))
+		(S 	(NP_SBJ 	(VP_MOD 	(VP 찾/VV + 아/EC)
+					(VP_MOD 보/VX + ㄹ/ETM))
+				(NP_SBJ 수/NNB))
+			(VP 없/VA + 었/EP + 다/EF + ./SF))))
+; 40∼50대가 대부분인 일꾼들은 (del) 지친 표정들이었다. 
+(S 	(NP_SBJ 	(S_MOD 	(NP_SBJ 40/SN + ∼/SO + 50/SN + 대/NNB + 가/JKS)
+			(VNP_MOD 대부분/NNG + 이/VCP + ㄴ/ETM))
+		(NP_SBJ 일/NNG + 꾼/XSN + 들/XSN + 은/JX))
+	(VP 	(<del>NP_AJT 	(S_MOD 	(NP_SBJ 	(VP_MOD 	(VP 하/VV + 고/EC)
+						(VP_MOD 있/VX + 는/ETM))
+					(NP_SBJ 일/NNG + 이/JKS))
+				(VP_MOD 	(NP_AJT 힘/NNG + 에/JKB)
+					(VP_MOD 부치/VV + ᆫ/ETM)))
+			(NP_AJT 듯/NNB))
+		(VP 	(VP_MOD 지치/VV + ㄴ/ETM)
+			(VNP 표정/NNG + 들/XSN + 이/VCP + 었/EP + 다/EF + ./SF))))
+; (del) 60세가 넘어 보이는 일꾼 몇몇이 (del) 눈에 띄었다. 
+(S 	(<del>NP_AJT 	(NP 공사장/NNG)
+		(NP_AJT 한편/NNG + 에서/JKB + 는/JX))
+	(S 	(NP_SBJ 	(S_MOD 	(NP_SBJ 	(NP 	(S_MOD 	(NP_SBJ 60/SN + 세/NNB + 가/JKS)
+							(VP_MOD 	(VP 넘/VV + 어/EC)
+								(VP_MOD 보이/VV + 는/ETM)))
+						(NP 일/NNG + 꾼/XSN))
+					(NP_SBJ 몇몇/NR + 이/JKS))
+				(<del>VP_MOD 	(NP_AJT 트럭/NNG + 에서/JKB)
+					(VP_MOD 	(NP_OBJ 벽돌/NNG + 을/JKO)
+						(VP_MOD 	(VP 내리/VV + 고/EC)
+							(VP_MOD 있/VX + 는/ETM)))))
+			(<del>NP_SBJ 모습/NNG + 도/JX))
+		(VP 	(NP_AJT 눈/NNG + 에/JKB)
+			(VP 띄/VV + 었/EP + 다/EF + ./SF))))
+; (del) 공사 일정이 당초 예정보다 20일 이상 늦어지고 있지만 "젊은 사람들을 구할 수가 없고  그나마 40∼50대 일손들도 부족하다"는 게 현장 사무소 측의 설명이다. 
+(S 	(S 	(<del>S 	(NP_AJT 	(S_MOD 	(NP_SBJ 나이/NNG + 가/JKS)
+					(VP_MOD 많/VA + 은/ETM))
+				(NP_AJT 탓/NNG + 에/JKB))
+			(S 	(NP_SBJ 	(NP 작업/NNG)
+					(NP_SBJ 속도/NNG + 도/JX))
+				(VP 더디/VA + 어/EC)))
+		(S 	(NP_SBJ 	(NP 공사/NNG)
+				(NP_SBJ 일정/NNG + 이/JKS))
+			(VP 	(NP_AJT 	(NP 당초/NNG)
+					(NP_AJT 예정/NNG + 보다/JKB))
+				(VP 	(NP_AJT 	(NP 20/SN + 일/NNB)
+						(NP_AJT 이상/NNG))
+					(VP 	(VP 늦/VV + 어/EC + 지/VX + 고/EC)
+						(VP 있/VX + 지만/EC))))))
+	(S 	(NP_SBJ 	(VP_MOD 	(S_CMP 	(L "/SS)
+					(S_CMP 	(S 	(<del>S 	(NP_OBJ 	(VP_MOD 젊/VA + 은/ETM)
+									(NP_OBJ 사람/NNG + 들/XSN + 을/JKO))
+								(S 	(NP_SBJ 	(VP_MOD 구하/VV + ㄹ/ETM)
+										(NP_SBJ 수/NNB + 가/JKS))
+									(VP 없/VA + 고/EC)))
+							(S 	(AP 그나마/MAG)
+								(S 	(NP_SBJ 	(NP 40/SN + ∼/SO + 50/SN + 대/NNB)
+										(NP_SBJ 일손/NNG + 들/XSN + 도/JX))
+									(VP 부족/NNG + 하/XSA + 다/EC))))
+						(R "/SS)))
+				(VP_MOD 는/ETM))
+			(NP_SBJ 것/NNB + 이/JKS))
+		(VP 	(NP_MOD 	(NP 	(NP 현장/NNG)
+					(NP 사무소/NNG))
+				(NP_MOD 측/NNB + 의/JKG))
+			(VNP 설명/NNG + 이/VCP + 다/EF + ./SF))))
+; 가장 젊은 전성재 씨(31·배관공)는 "일 자체도 힘든데다 사회에서도 꺼리는 직업으로 여기는데 누가 하려 하겠느냐"고 말했다. 
+(S 	(NP_SBJ 	(VP_MOD 	(AP 가장/MAG)
+			(VP_MOD 젊/VA + 은/ETM))
+		(NP_SBJ 	(NP 전성재/NNP)
+			(NP_SBJ 씨/NNB + (/SS + 31/SN + ·/SP + 배관공/NNG + )/SS + 는/JX)))
+	(VP 	(S_CMP 	(S 	(L "/SS)
+				(S 	(S 	(VP 	(S 	(NP_SBJ 	(NP 일/NNG)
+									(NP_SBJ 자체/NNG + 도/JX))
+								(VP 힘들/VA + ㄴ데다/EC))
+							(VP 	(NP_AJT 사회/NNG + 에서/JKB + 도/JX)
+								(VP 	(NP_AJT 	(VP_MOD 꺼리/VV + 는/ETM)
+										(NP_AJT 직업/NNG + 으로/JKB))
+									(VP 여기/VV + 는데/EC))))
+						(S 	(NP_SBJ 누구/NP + 가/JKS)
+							(VP 	(VP 하/VV + 려/EC)
+								(VP 하/VV + 겠/EP + 느냐/EC))))
+					(R "/SS)))
+			(X_CMP 고/JKQ))
+		(VP 말/NNG + 하/XSV + 았/EP + 다/EF + ./SF)))
+; (del) 전씨의 월수입은 1백 40여 만원. 
+(S 	(NP_SBJ 	(NP_MOD 	(<del>S_MOD 	(NP_SBJ 자신/NNG + 도/JX)
+				(VP_MOD 	(VP 	(VP 	(VP 	(NP_OBJ 고교/NNG + 를/JKO)
+								(VP 졸업/NNG + 하/XSV + 고/EC))
+							(VP 	(NP_AJT 	(VP_MOD 	(NP_OBJ 용돈/NNG + 을/JKO)
+										(VP_MOD 벌/VV + ᆯ/ETM))
+									(NP_AJT 용량/NNG + 으로/JKB))
+								(VP 	(AP 띄엄띄엄/MAG)
+									(VP 	(NP_OBJ 공사판/NNG + 을/JKO)
+										(VP 돌아다니/VV + 다/EC)))))
+						(VP 	(NP_OBJ 	(NP 배관/NNG)
+								(NP_OBJ 기술/NNG + 을/JKO))
+							(VP 익히/VV + 어/EC)))
+					(VP_MOD 	(VP 누르/VV + 어/EC)
+						(VP_MOD 앉/VV + 았/EP + 다는/ETM))))
+			(NP_MOD 전/NNP + 씨/NNB + 의/JKG))
+		(NP_SBJ 월/NNG + 수입/NNG + 은/JX))
+	(NP 	(NP 	(NP 1/SN + 백/NR)
+			(NP 40/SN + 여/XSN))
+		(NP 만/NR + 원/NNG + ./SF)))
+; 물론 일요일은 일을 하지 않고 손에 쥐는 순 수입이다. 
+(VP 	(AP 물론/MAG)
+	(VP 	(VP_MOD 	(VP 	(NP_AJT 일요일/NNG + 은/JX)
+				(VP 	(NP_OBJ 일/NNG + 을/JKO)
+					(VP 	(VP 하/VV + 지/EC)
+						(VP 않/VX + 고/EC))))
+			(VP_MOD 	(NP_AJT 손/NNG + 에/JKB)
+				(VP_MOD 쥐/VV + 는/ETM)))
+		(VP 	(DP 순/MM)
+			(VNP 수입/NNG + 이/VCP + 다/EF + ./SF))))
+; 전씨는 "(del)이제는 어느 공사장을 가도 우리 또래는 볼 수가 없다"고 말했다. 
+(S 	(NP_SBJ 전/NNP + 씨/NNB + 는/JX)
+	(VP 	(S_CMP 	(S 	(L "/SS)
+				(S 	(<del>AP 그렇지만/MAJ)
+					(S 	(S 	(<del>S 	(NP_AJT 	(VNP_MOD 	(VP_MOD 궂/VA + 은/ETM)
+										(VNP_MOD 일/NNG + 이/VCP + 라는/ETM))
+									(NP_AJT 생각/NNG + 때문/NNB + 에/JKB))
+								(S 	(NP_SBJ 젊은이/NNG + 들/XSN + 이/JKS)
+									(VP 	(NP_OBJ 	(NP 	(NP 서비스/NNG + 업종/NNG)
+												(NP 등/NNB))
+											(NP_OBJ 	(VP_MOD 편하/VA + ᆫ/ETM)
+												(NP_OBJ 일/NNG + 만/JX)))
+										(VP 찾/VV + 아/EC))))
+							(S 	(NP_AJT 이제/NNG + 는/JX)
+								(S 	(VP 	(NP_OBJ 	(DP 어느/MM)
+											(NP_OBJ 공사장/NNG + 을/JKO))
+										(VP 가/VV + 아도/EC))
+									(S 	(NP_SBJ 	(NP 우리/NP)
+											(NP_SBJ 또래/NNG + 는/JX))
+										(S 	(NP_SBJ 	(VP_MOD 보/VV + ㄹ/ETM)
+												(NP_SBJ 수/NNB + 가/JKS))
+											(VP 없/VA + 다/EC))))))
+						(R "/SS))))
+			(X_CMP 고/JKQ))
+		(VP 말/NNG + 하/XSV + 았/EP + 다/EF + ./SF)))
+; 인력 부족 현상은 대부분의 건설 현장이 마찬가지여서 (del) 
+(S 	(S 	(NP_SBJ 	(NP 	(NP 인력/NNG)
+				(NP 부족/NNG))
+			(NP_SBJ 현상/NNG + 은/JX))
+		(S 	(NP_SBJ 	(NP_MOD 대부분/NNG + 의/JKG)
+				(NP_SBJ 	(NP 건설/NNG)
+					(NP_SBJ 현장/NNG + 이/JKS)))
+			(VNP 마찬가지/NNG + 이/VCP + 어서/EC)))
+	(<del>S 	(NP_SBJ 	(NP_MOD 	(NP 	(S_MOD 	(NP_SBJ 	(NP 노동/NNG)
+							(NP_SBJ 강도/NNG + 가/JKS))
+						(VP_MOD 높/VA + 은/ETM))
+					(NP 	(NP_CNJ 벽돌공/NNG + ,/SP)
+						(NP 목수/NNG)))
+				(NP_MOD 등/NNB + 의/JKG))
+			(NP_SBJ 인력/NNG + 은/JX))
+		(VNP 	(S_MOD 	(VP 	(NP_OBJ 일당/NNG + 을/JKO)
+					(VP 	(NP_OBJ 5/SN + 만/NR + ∼/SO + 7/SN + 만/NR + 원/NNG + 씩/XSN)
+						(VP 주/VV + 어도/EC)))
+				(S_MOD 	(NP_SBJ 	(VP_MOD 구하/VV + ᆯ/ETM)
+						(NP_SBJ 수/NNB + 가/JKS))
+					(VP_MOD 없/VA + 는/ETM)))
+			(VNP 실정/NNG + 이/VCP + 다/EF + ./SF))))
+; (del) 단순 노무직은 60대나 부녀자들을 고용하고 있지만 (del) (del) 원활하지 못한 형편이다. 
+(S 	(del)
+	(S 	(VP 	(NP_AJT 	(<del>NP 	(NP 	(NP_MOD 공사장/NNG + 의/JKG)
+						(NP 	(NP_CNJ 청소/NNG + ,/SP)
+							(NP 	(NP 자재/NNG)
+								(NP 운반/NNG))))
+					(NP 등/NNB))
+				(NP_AJT 	(NP 단순/NNG)
+					(NP_AJT 노무/NNG + 직/NNG + 은/JX)))
+			(VP 	(NP_OBJ 	(NP_CNJ 60/SN + 대/NNB + 나/JC)
+					(NP_OBJ 부녀자/NNG + 들/XSN + 을/JKO))
+				(VP 	(VP 고용/NNG + 하/XSV + 고/EC)
+					(VP 있/VX + 지만/EC))))
+		(S 	(<del>NP_SBJ 그/NP + 마저/JX)
+			(VNP 	(S_MOD 	(<del>NP_SBJ 	(NP 인력/NNG)
+						(NP_SBJ 공급/NNG + 이/JKS))
+					(VP_MOD 	(VP 원활/NNG + 하/XSA + 지/EC)
+						(VP_MOD 못하/VX + ㄴ/ETM)))
+				(VNP 형편/NNG + 이/VCP + 다/EF + ./SF)))))
+; (del) S건설 현장관리과장 이철희 씨는 "(del) 다른 곳보다 후하게 주고 있지만 필요한 인원 50 명 가운데 20 명밖에 구하지 못하고 있다"고 말했다. 
+(S 	(NP_SBJ 	(NP 	(NP 	(<del>VP_MOD 	(NP_AJT 	(NP 	(NP 서울/NNP)
+							(NP 중구/NNP))
+						(NP_AJT 봉래동/NNP + 에/JKB))
+					(VP_MOD 	(NP_OBJ 빌딩/NNG + 을/JKO)
+						(VP_MOD 	(VP 건설/NNG + 하/XSV + 고/EC)
+							(VP_MOD 있/VX + 는/ETM))))
+				(NP S/SL + 건설/NNG))
+			(NP 현장/NNG + 관리/NNG + 과장/NNG))
+		(NP_SBJ 	(NP 이철희/NNP)
+			(NP_SBJ 씨/NNB + 는/JX)))
+	(VP 	(VP_CMP 	(VP 	(L "/SS)
+				(VP 	(VP 	(VP 	(<del>NP_AJT 	(NP_MOD 	(NP 단순/NNG)
+									(NP_MOD 노무/NNG + 직/NNG + 의/JKG))
+								(NP_AJT 경우/NNG))
+							(VP 	(<del>NP_AJT 	(NP 일당/NNG)
+									(NP_AJT 3/SN + 만/NR + 원/NNG + 으로/JKB))
+								(VP 	(NP_AJT 	(DP 다른/MM)
+										(NP_AJT 곳/NNG + 보다/JKB))
+									(VP 	(VP 후하/VA + 게/EC)
+										(VP 	(VP 주/VX + 고/EC)
+											(VP 있/VX + 지만/EC))))))
+						(VP 	(NP_OBJ 	(NP 	(NP 	(NP 	(VP_MOD 필요/NNG + 하/XSA + ㄴ/ETM)
+											(NP 인원/NNG))
+										(NP 	(NP 50/SN)
+											(NP 명/NNB)))
+									(NP 가운데/NNG))
+								(NP_OBJ 	(NP 20/SN)
+									(NP_OBJ 명/NNB + 밖에/JX)))
+							(VP 	(VP 	(VP 구하/VV + 지/EC)
+									(VP 못하/VX + 고/EC))
+								(VP 있/VX + 다/EC))))
+					(R "/SS)))
+			(X_CMP 고/JKQ))
+		(VP 말/NNG + 하/XSV + 았/EP + 다/EF + ./SF)))
+; 이 같은 인력난은 (del) "인력난을 메워야 할 젊은 층이 (del) 막일은 기피하는 현상이 갈수록 심해지고 있기 때문"(del). 
+(S 	(S 	(NP_SBJ 	(VP_MOD 	(NP_AJT 이/NP)
+				(VP_MOD 같/VA + 은/ETM))
+			(NP_SBJ 인력난/NNG + 은/JX))
+		(<del>S 	(NP_AJT 	(NP_MOD 최근/NNG + 의/JKG)
+				(NP_AJT 	(NP 	(NP 건설/NNG)
+						(NP 경기/NNG))
+					(NP_AJT 호황/NNG + 에/JKB + 도/JX)))
+			(S 	(NP_SBJ 이유/NNG + 가/JKS)
+				(VP 있/VV + 지만/EC))))
+	(S 	(<del>NP_SBJ 	(NP 건설업/NNG + 계/XSN)
+			(NP_SBJ 사람/NNG + 들/XSN + 은/JX))
+		(VP 	(NP_CMP 	(NP 	(L "/SS)
+					(NP 	(NP 	(S 	(NP_SBJ 	(S_MOD 	(NP_SBJ 	(VP_MOD 	(NP_OBJ 인력난/NNG + 을/JKO)
+												(VP_MOD 	(VP 메우/VV + 어야/EC)
+													(VP_MOD 하/VX + ㄹ/ETM)))
+											(NP_SBJ 	(VP_MOD 젊/VA + 은/ETM)
+												(NP_SBJ 층/NNG + 이/JKS)))
+										(VP_MOD 	(<del>S 	(NP_AJT 임금/NNG + 과/JKB)
+												(S 	(NP_SBJ 상관/NNG)
+													(AP 없이/MAG)))
+											(VP_MOD 	(NP_OBJ 막일/NNG + 은/JX)
+												(VP_MOD 기피/NNG + 하/XSV + 는/ETM))))
+									(NP_SBJ 현상/NNG + 이/JKS))
+								(VP 	(AP 갈수록/MAG)
+									(VP 	(VP 심하/VA + 아/EC + 지/VX + 고/EC)
+										(VP 있/VX + 기/ETN))))
+							(NP 때문/NNB))
+						(R "/SS)))
+				(<del>X_CMP 이라고/JKQ))
+			(<del>VP 	(NP_OBJ 하소연/NNG)
+				(VP 	(VP 하/VV + 고/EC)
+					(VP 있/VX + 다/EF + ./SF))))))
+; (del) 강모 씨(47)는 "(del) 건설 기능공 대부분이 40대에서 대가 끊긴 상태"라고 (del) 
+(S 	(NP_SBJ 	(<del>VP_MOD 	(NP_AJT 	(NP 	(NP 	(NP 인천시/NNP)
+						(NP 남구/NNP))
+					(NP 구월동/NNP))
+				(NP_AJT 	(NP_MOD S/SL + 기업/NNG + 의/JKG)
+					(NP_AJT 	(NP 	(NP 아파트/NNG)
+							(NP 건설/NNG))
+						(NP_AJT 현장/NNG + 에서/JKB))))
+			(VP_MOD 	(NP_AJT 목수/NNG + 로/JKB)
+				(VP_MOD 일/NNG + 하/XSV + 는/ETM)))
+		(NP_SBJ 	(NP 강/NNP + 모/NP)
+			(NP_SBJ 씨/NNB + (/SS + 47/SN + )/SS + 는/JX)))
+	(VP 	(S_CMP 	(S 	(L "/SS)
+				(S 	(S 	(<del>S 	(NP_SBJ 	(VP_MOD 	(NP_OBJ 	(S_MOD 	(NP_AJT 	(VP_MOD 	(NP_OBJ 기능/NNG + 을/JKO)
+													(VP_MOD 	(AP 완전히/MAG)
+														(VP_MOD 익히/VV + 는/ETM)))
+												(NP_AJT 데/NNB))
+											(S_MOD 	(NP_SBJ 5/SN + ∼/SO + 6/SN + 년/NNB + 씩/XSN)
+												(VP_MOD 걸리/VV + 는/ETM)))
+										(NP_OBJ 	(NP 공사장/NNG)
+											(NP_OBJ 일/NNG + 을/JKO)))
+									(VP_MOD 배우/VV + 려는/ETM))
+								(NP_SBJ 사람/NNG + 이/JKS))
+							(VP 없/VA + 어/EC))
+						(S 	(NP_SBJ 	(NP 	(NP 건설/NNG)
+									(NP 기능공/NNG))
+								(NP_SBJ 대부분/NNG + 이/JKS))
+							(NP 	(S_MOD 	(NP_AJT 40/SN + 대/NNB + 에서/JKB)
+									(S_MOD 	(NP_SBJ 대/NNG + 가/JKS)
+										(VP_MOD 끊기/VV + ㄴ/ETM)))
+								(NP 상태/NNG))))
+					(R "/SS)))
+			(X_CMP 라고/JKQ))
+		(<del>VP 말/NNG + 하/XSV + 았/EP + 다/EF + ./SF)))
+; 건설업계 관계자들은 "숙련공 숫자가 절대적으로 부족해 (del)"라며 "(del) 부실 공사가 될까봐 걱정"이라고 (del) 
+(S 	(NP_SBJ 	(NP 건설업/NNG + 계/XSN)
+		(NP_SBJ 관계자/NNG + 들/XSN + 은/JX))
+	(VP 	(VNP 	(VP 	(L "/SS)
+				(VP 	(VP 	(NP_AJT 	(VP_MOD 	(S 	(NP_SBJ 	(NP 숙련공/NNG)
+										(NP_SBJ 숫자/NNG + 가/JKS))
+									(VP 	(NP_AJT 절대/NNG + 적/XSN + 으로/JKB)
+										(VP 부족/NNG + 하/XSA + 아/EC)))
+								(<del>VP_MOD 	(NP_AJT 요즘/NNG + 은/JX)
+									(VP_MOD 	(VP 	(NP_OBJ 	(NP_MOD 약간/NNG + 의/JKG)
+												(NP_OBJ 기능/NNG + 만/JX))
+											(VP 익히/VV + 어도/EC))
+										(VP_MOD 	(NP_OBJ 	(NP 기능공/NNG)
+												(NP_OBJ 대우/NNG + 를/JKO))
+											(VP_MOD 바라/VV + 는/ETM)))))
+							(<del>NP_AJT 데/NNB + 다/JX))
+						(<del>VP 	(VP 	(NP_OBJ 야단/NNG + 이/VCP + 라도/EC)
+								(VP 치/VV + 면/EC))
+							(VP 	(S_CMP 	(S 	(L `/SS)
+										(S 	(S 	(NP_SBJ 기분/NNG)
+												(VP 나쁘/VA + 다/EC))
+											(R '/SS)))
+									(X_CMP 고/JKQ))
+								(NP 	(VP 	(VP 나오/VV + 지/EC)
+										(VP 않/VX + 기/ETN))
+									(NP 일쑤/NNG)))))
+					(R "/SS)))
+			(VNP 이/VCP + 라며/EC))
+		(VP 	(NP_CMP 	(NP 	(L "/SS)
+					(NP 	(NP 	(VP 	(<del>VP 이러/VV + 다가/EC + 는/JX)
+								(VP 	(NP_CMP 	(NP 부실/NNG)
+										(NP_CMP 공사/NNG + 가/JKC))
+									(VP 되/VV + ㄹ까/EC + 보/VX + 아/EC)))
+							(NP 걱정/NNG))
+						(R "/SS)))
+				(X_CMP 이라고/JKQ))
+			(<del>VP 말/NNG + 하/XSV + 았/EP + 다/EF + ./SF))))
+; 이처럼 인력난이 심해지면서 노임도 크게 올라 (del). 
+(S 	(S 	(S 	(NP_AJT 이/NP + 처럼/JKB)
+			(S 	(NP_SBJ 인력난/NNG + 이/JKS)
+				(VP 심하/VA + 아/EC + 지/VX + 면서/EC)))
+		(S 	(NP_SBJ 노임/NNG + 도/JX)
+			(VP 	(VP 크/VA + 게/EC)
+				(VP 오르/VV + 아/EC))))
+	(<del>S 	(NP_SBJ 	(VNP_MOD 	(NP_AJT 89/SN + 년/NNB)
+				(VNP_MOD 	(NP 8/SN + 천/NR + ∼/SO + 1/SN + 만/NR)
+					(VNP_MOD 1/SN + 천/NR + 원/NNG + 이/VCP + 던/ETM)))
+			(NP_SBJ 	(NP 	(NP 단순/NNG)
+					(NP 노무/NNG + 직/NNG))
+				(NP_SBJ 일당/NNG + 이/JKS)))
+		(VP 	(VP 	(NP 	(NP_AJT 	(NP 지나/VV + ᆫ/ETM + 해/NNG)
+						(NP_AJT 5/SN + 월/NNB + 에/JKB + 는/JX))
+					(NP 	(NP 1/SN + 만/NR)
+						(NP 5/SN + 천/NR + 원/NNG + ,/SP)))
+				(VP 	(VP 	(NP_AJT 10/SN + 월/NNB)
+						(VP 들/VV + 어서/EC + 는/JX))
+					(VP 	(NP_AJT 	(NP 1/SN + 만/NR)
+							(NP_AJT 8/SN + 천/NR + 원/NNG + 으로/JKB))
+						(VP 오르/VV + 았/EP + 고/EC + ,/SP))))
+			(VP 	(NP_AJT 요즘/NNG + 은/JX)
+				(VP 	(VP 	(NP_OBJ 	(NP 하루/NNG)
+							(NP_OBJ 8/SN + 시간/NNG + 을/JKO))
+						(NP_AJT 기준/NNG + 으로/JKB))
+					(VP 	(NP_CMP 	(NP 2/SN + 만/NR + ∼/SO + 2/SN + 만/NR)
+							(NP_CMP 5/SN + 천/NR + 원/NNG + 선/NNG + 이/JKC))
+						(VP 되/VV + 었/EP + 다/EF + ./SF)))))))
+; 2년 동안 2∼3배가 오른 것이다. 
+(S 	(NP_AJT 	(NP 2/SN + 년/NNB)
+		(NP_AJT 동안/NNG))
+	(S 	(NP_SBJ 2/SN + ∼/SO + 3/SN + 배/NNG + 가/JKS)
+		(VNP 	(VP_MOD 오르/VV + ㄴ/ETM)
+			(VNP 것/NNB + 이/VCP + 다/EF + ./SF))))
+; (del) 기능 인력은 6만∼7만원을 줘도 구하기가 쉽지 않다. 
+(S 	(NP_SBJ 	(<del>NP 	(NP 	(NP_CNJ 목공/NNG + ,/SP)
+				(NP 	(NP_CNJ 전기공/NNG + ,/SP)
+					(NP 배관공/NNG)))
+			(NP 등/NNB))
+		(NP_SBJ 	(NP 기능/NNG)
+			(NP_SBJ 인력/NNG + 은/JX)))
+	(S 	(VP 	(NP_OBJ 6/SN + 만/NR + ∼/SO + 7/SN + 만/NR + 원/NNG + 을/JKO)
+			(VP 주/VV + 어도/EC))
+		(S 	(VP_SBJ 구하/VV + 기/ETN + 가/JKS)
+			(VP 	(VP 쉽/VA + 지/EC)
+				(VP 않/VX + 다/EF + ./SF)))))
+; 이들의 한달 평균 일하는 날을 20일로 잡아도 월 1백만원은 간단히 벌 수 있다는 계산이다. 
+(VNP 	(S_MOD 	(VP 	(NP_OBJ 	(NP_MOD 이/NP + 들/XSN + 의/JKG)
+				(NP_OBJ 	(NP 	(NP 한/MM + 달/NNB)
+						(NP 평균/NNG))
+					(NP_OBJ 	(VP_MOD 일/NNG + 하/XSV + 는/ETM)
+						(NP_OBJ 날/NNG + 을/JKO))))
+			(VP 	(NP_AJT 20/SN + 일/NNB + 로/JKB)
+				(VP 잡/VV + 아도/EC)))
+		(S_MOD 	(NP_OBJ 	(NP 월/NNG)
+				(NP_OBJ 1/SN + 백만/NR + 원/NNG + 은/JX))
+			(S_MOD 	(AP 간단히/MAG)
+				(S_MOD 	(NP_SBJ 	(VP_MOD 벌/VV + ᆯ/ETM)
+						(NP_SBJ 수/NNB))
+					(VP_MOD 있/VV + 다는/ETM)))))
+	(VNP 계산/NNG + 이/VCP + 다/EF + ./SF))
+; (del) 현장 소장보다 월급을 더 많이 받는 기능공도 적지 않게 있다. 
+(S 	(<del>AP 실제로/MAG)
+	(S 	(<del>NP_AJT 	(NP_MOD S/SL + 건설/NNG + 의/JKG)
+			(NP_AJT 	(NP 	(NP 중구/NNP)
+					(NP 봉래동/NNP))
+				(NP_AJT 현장/NNG + 에서/JKB + 는/JX)))
+		(S 	(NP_SBJ 	(VP_MOD 	(NP_AJT 	(<del>VNP_MOD 	(NP 본사/NNG)
+							(VNP_MOD 부장/NNG + 급/NNG + 이/VCP + ᆫ/ETM))
+						(NP_AJT 	(NP 현장/NNG)
+							(NP_AJT 소장/NNG + 보다/JKB)))
+					(VP_MOD 	(NP_OBJ 월급/NNG + 을/JKO)
+						(VP_MOD 	(AP 	(AP 더/MAG)
+								(AP 많이/MAG))
+							(VP_MOD 받/VV + 는/ETM))))
+				(NP_SBJ 기능공/NNG + 도/JX))
+			(VP 	(VP 	(VP 적/VA + 지/EC)
+					(VP 않/VX + 게/EC))
+				(VP 있/VV + 다/EF + ./SF)))))
+; (del) 한 달에 3백만원 이상 받아가는 일꾼도 있다. 
+(S 	(<del>NP_AJT 	(VP_MOD 	(S 	(NP_SBJ 공사/NNG + 가/JKS)
+				(VP 바쁘/VA + 아/EC))
+			(VP_MOD 	(NP_AJT 	(VP_MOD 	(NP_CMP 	(NP 일명/NNG)
+							(NP_CMP `/SS + 돈떼기/NNG + '/SS + 라고/JKQ))
+						(VP_MOD 부르/VV + 는/ETM))
+					(NP_AJT 	(NP 작업량/NNG)
+						(NP_AJT 할당/NNG + 제/XSN + 로/JKB)))
+				(VP_MOD 	(NP_OBJ 도급/NNG + 을/JKO)
+					(VP_MOD 주/VV + ᆯ/ETM))))
+		(NP_AJT 때/NNG + 는/JX))
+	(S 	(NP_SBJ 	(VP_MOD 	(NP_AJT 	(DP 한/MM)
+					(NP_AJT 달/NNB + 에/JKB))
+				(VP_MOD 	(NP_OBJ 	(NP 3/SN + 백만/NR + 원/NNG)
+						(NP_OBJ 이상/NNG))
+					(VP_MOD 받/VV + 아/EC + 가/VX + 는/ETM)))
+			(NP_SBJ 일/NNG + 꾼/XSN + 도/JX))
+		(VP 있/VV + 다/EF + ./SF)))
+; 막일을 기피하는 풍조는 건설 공사장뿐만이 아니다. 
+(S 	(NP_SBJ 	(VP_MOD 	(NP_OBJ 막일/NNG + 을/JKO)
+			(VP_MOD 기피/NNG + 하/XSV + 는/ETM))
+		(NP_SBJ 풍조/NNG + 는/JX))
+	(VP 	(NP_CMP 	(NP 건설/NNG)
+			(NP_CMP 공사장/NNG + 뿐/JX + 만/JX + 이/JKC))
+		(VP 아니/VCN + 다/EF + ./SF)))
+; 다방, 식당 등 접객업소 종업원, LP 가스 배달원 등 단순 인력도 갈수록 모자란다. 
+(S 	(NP_SBJ 	(NP 	(NP 	(NP_CNJ 	(NP 	(NP 	(NP_CNJ 다방/NNG + ,/SP)
+							(NP 식당/NNG))
+						(NP 등/NNB))
+					(NP_CNJ 	(NP 접객업소/NNG)
+						(NP_CNJ 종업원/NNG + ,/SP)))
+				(NP 	(NP 	(NP LP/SL)
+						(NP 가스/NNG))
+					(NP 배달원/NNG)))
+			(NP 등/NNB))
+		(NP_SBJ 	(NP 단순/NNG)
+			(NP_SBJ 인력/NNG + 도/JX)))
+	(VP 	(AP 갈수록/MAG)
+		(VP 모자라/VV + ㄴ다/EF + ./SF)))
+; (del) 음식점을 경영하는 이모 씨(59·여)는 "직업소개소를 통해 (del) 10대 소녀를 고용, (del) 한 달도 못돼 근처 카페로 옮겨 갔다"(del)고 말했다. 
+(S 	(NP_SBJ 	(VP_MOD 		(<del>NP_AJT 여의도/NNP + 에서/JKB)
+			(VP_MOD 	(NP_OBJ 음식점/NNG + 을/JKO)
+				(VP_MOD 경영/NNG + 하/XSV + 는/ETM)))
+		(NP_SBJ 	(NP 이/NNP + 모/NP)
+			(NP_SBJ 씨/NNB + (/SS + 59/SN + ·/SP + 여/NNG + )/SS + 는/JX)))
+	(VP 	(VP 	(VP_CMP 	(L "/SS)
+				(VP_CMP 	(VP_CMP 	(VP 	(VP 	(VP 	(NP_OBJ 직업/NNG + 소개소/NNG + 를/JKO)
+									(VP 통하/VV + 아/EC))
+								(VP 	(NP_OBJ 	(<del>VP_MOD 	(NP_AJT 시골/NNG + 서/JKB)
+											(VP_MOD 	(AP 갓/MAG)
+												(VP_MOD 올라오/VV + ᆫ/ETM)))
+										(NP_OBJ 	(NP 10/SN + 대/NNB)
+											(NP_OBJ 소녀/NNG + 를/JKO)))
+									(NP 고용/NNG + ,/SP)))
+							(<del>VP 	(NP_OBJ 	(NP_CNJ 	(NP 식탁/NNG)
+										(NP_CNJ 청소/NNG + 와/JC))
+									(NP_OBJ 심부름/NNG + 을/JKO))
+								(VP 시키/VV + 었/EP + 으나/EC)))
+						(VP_CMP 	(S 	(NP_SBJ 	(DP 한/MM)
+									(NP_SBJ 달/NNB + 도/JX))
+								(VP 못/MAG + 되/VV + 어/EC))
+							(VP_CMP 	(NP_AJT 	(NP 근처/NNG)
+									(NP_AJT 카페/NNG + 로/JKB))
+								(VP_CMP 	(VP 옮기/VV + 어/EC)
+									(VP_CMP 가/VX + 았/EP + 다/EC)))))
+					(R "/SS)))
+			(<del>VP 며/EC))
+		(VP 	(S_CMP 	(<del>S 	(L "/SS)
+					(S 	(S 	(NP_SBJ 	(NP 요즘/NNG)
+								(NP_SBJ 세태/NNG + 가/JKS))
+							(VP 	(VP 어떻/VA + 게/EC + 든/EC)
+								(VP 	(NP_OBJ 	(VP_MOD 	(VP 쉽/VA + 고/EC)
+											(VP_MOD 편하/VA + ᆫ/ETM))
+										(NP_OBJ 일/NNG + 만/JX))
+									(VP 	(NP 	(VP_MOD 찾/VV + 으려는/ETM)
+											(NP 것/NNB))
+										(VP 같/VA + 다/EC)))))
+						(R "/SS)))
+				(X_CMP 고/JKQ))
+			(VP 말/NNG + 하/XSV + 았/EP + 다/EF + ./SF))))
+; 이 같은 인력난 때문에 (del) 중국음식점 등에서는 주인이 자신의 승용차로 음식을 배달하는 경우도 생겨나고 있다. 
+(S 	(NP_AJT 	(NP 	(VP_MOD 	(NP_AJT 	(NP 	(VP_MOD 	(NP_AJT 이/NP)
+							(VP_MOD 같/VA + 은/ETM))
+						(NP 인력난/NNG))
+					(NP_AJT 때문/NNB + 에/JKB))
+				(<del>VP_MOD 	(NP_OBJ 일손/NNG + 을/JKO)
+					(VP_MOD 	(VP 구하/VV + 지/EC)
+						(VP_MOD 못하/VX + ᆫ/ETM))))
+			(NP 	(<del>NP 일부/NNG)
+				(NP 	(<del>NP 	(NP 아파트/NNG)
+						(NP 단지/NNG + 내/NNB))
+					(NP 중국/NNP + 음식점/NNG))))
+		(NP_AJT 등/NNB + 에서/JKB + 는/JX))
+	(S 	(NP_SBJ 	(S_MOD 	(NP_SBJ 주인/NNG + 이/JKS)
+				(VP_MOD 	(NP_AJT 	(NP_MOD 자신/NNG + 의/JKG)
+						(NP_AJT 승용차/NNG + 로/JKB))
+					(VP_MOD 	(NP_OBJ 음식/NNG + 을/JKO)
+						(VP_MOD 배달/NNG + 하/XSV + 는/ETM))))
+			(NP_SBJ 경우/NNG + 도/JX))
+		(VP 	(VP 생겨나/VV + 고/EC)
+			(VP 있/VX + 다/EF + ./SF))))
+; 중소기업 협동조합 중앙회는 지난해 7월 동남아 일대의 단순 기능 인력을 수입, (del) 해 달라는 건의문을 정부에 냈었다. 
+(S 	(NP_SBJ 	(NP 	(NP 중소/NNG + 기업/NNG)
+			(NP 협동/NNG + 조합/NNG))
+		(NP_SBJ 중앙회/NNG + 는/JX))
+	(VP 	(NP_AJT 	(NP 지나/VV + ㄴ/ETM + 해/NNG)
+			(NP_AJT 7/SN + 월/NNB))
+		(VP 	(NP_OBJ 	(VP_MOD 	(S 	(VP 	(NP_OBJ 	(NP_MOD 	(NP 동남아/NNP)
+									(NP_MOD 일대/NNG + 의/JKG))
+								(NP_OBJ 	(NP 	(NP 단순/NNG)
+										(NP 기능/NNG))
+									(NP_OBJ 인력/NNG + 을/JKO)))
+							(NP 수입/NNG + ,/SP))
+						(<del>S 	(NP_SBJ 	(NP 국내/NNG)
+								(NP_SBJ 중소/NNG + 기업/NNG + 이/JKS))
+							(S 	(NP_SBJ 	(VP_MOD 고용/NNG + 하/XSV + ᆯ/ETM)
+									(NP_SBJ 수/NNB))
+								(VP 있/VV + 도록/EC))))
+					(VP_MOD 	(VP 하/VX + 아/EC)
+						(VP_MOD 달/VX + 라는/ETM)))
+				(NP_OBJ 건의문/NNG + 을/JKO))
+			(VP 	(NP_AJT 정부/NNG + 에/JKB)
+				(VP 내/VV + 었었/EP + 다/EF + ./SF)))))
+; 중앙회는 건의문에서 "날로 확산되는 힘든 일 기피 풍조로 국내 산업의 공동화 현상을 (del)"(del) 지적했다. 
+(S 	(NP_SBJ 중앙회/NNG + 는/JX)
+	(VP 	(NP_AJT 건의문/NNG + 에서/JKB)
+		(VP 	(S_CMP 	(S 	(L "/SS)
+					(S 	(S 	(NP_AJT 	(VP_MOD 	(AP 날로/MAG)
+									(VP_MOD 확산/NNG + 되/XSV + 는/ETM))
+								(NP_AJT 	(NP 	(NP 	(VP_MOD 힘들/VA + ㄴ/ETM)
+											(NP 일/NNG))
+										(NP 기피/NNG))
+									(NP_AJT 풍조/NNG + 로/JKB)))
+							(S 	(NP_OBJ 	(NP_MOD 	(NP 국내/NNG)
+										(NP_MOD 산업/NNG + 의/JKG))
+									(NP_OBJ 	(NP 공동/NNG + 화/XSN)
+										(NP_OBJ 현상/NNG + 을/JKO)))
+								(<del>S 	(NP_SBJ 	(VP_MOD 	(VP 우려/NNG + 하/XSV + 지/EC)
+											(VP_MOD 않/VX + 을/ETM))
+										(NP_SBJ 수/NNB))
+									(VP 없/VA + 다/EC))))
+						(R "/SS)))
+				(<del>X_CMP 고/JKQ))
+			(VP 지적/NNG + 하/XSV + 았/EP + 다/EF + ./SF))))
+ </body>
+ </text>
+</tei.2>
